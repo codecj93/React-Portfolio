@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Footer } from '../components/Footer';
+import Footer  from '../components/Footer';
 import '/Users/cjosephs93/Desktop/Bootcamp/challenges/React Portfolio/React-Portfolio/src/App.css';
 
 function ContactMe() {
@@ -38,8 +38,16 @@ function ContactMe() {
               name="name"
               value={formData.name}
               onChange={handleChange}
+              onBlur={() => {
+                if (!formData.name) {
+                  document.getElementById("name-notice").style.display = "block";
+                } else {
+                  document.getElementById("name-notice").style.display = "none";
+                }
+              }}
               required
             />
+            <p id="name-notice" class="red-text">Name is required!</p>
           </div>
           <div className="form-group">
             <label htmlFor="email">Email:</label>
@@ -51,6 +59,8 @@ function ContactMe() {
               onChange={handleChange}
               required
             />
+            <p class="red-text">Email is required!</p>
+
           </div>
           <div className="form-group">
             <label htmlFor="message">Message:</label>
@@ -61,10 +71,12 @@ function ContactMe() {
               onChange={handleChange}
               required
             ></textarea>
+            <p class="red-text">Message is required!</p>
+
           </div>
           <button type="submit">Send</button>
         </form>
-        <Footer />
+    
      
       </div>
        

@@ -1,18 +1,12 @@
 import React from 'react';
 import '/Users/cjosephs93/Desktop/Bootcamp/challenges/React Portfolio/React-Portfolio/src/App.css';
-import { Footer } from '../components/Footer';
+import Footer from '../components/Footer';
 
 function AboutMe() {
+  return (
         <div>
           <section>
             <h1><b>Christopher Josephs</b></h1>
-            <nav>
-          <ul>
-            <li><Link to="/my-work">My Work</Link></li>
-            <li><Link to="/contact-me">Contact Me</Link></li>
-            <li><Link to="/resume">Resume</Link></li>
-          </ul>
-        </nav>
           </section>
           <section id="AboutMe">
             <h2><u>About Me</u></h2>
@@ -23,11 +17,11 @@ function AboutMe() {
             <p>Click on the links above for more information!</p>
             <img id="self" src="./9E051D28-D067-46E4-A4C0-AED9EC2B8286.jpg" alt="Picture of Christopher Josephs" />
           </section>
-            <Footer>
-            </Footer>
+           
             
 
         </div>
+  )
 };
 
 export default AboutMe;

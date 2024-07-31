@@ -29,3 +29,8 @@ html, body {
 a:hover {
   background-color: azure;
 }
+
+.red-text{
+  color: red;
+  display: none;
+}
