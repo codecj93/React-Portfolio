@@ -5,6 +5,7 @@ html, body {
   flex-direction: column;
   align-items: center; /* Center horizontally */
   justify-content: flex-start; /* Align to the top */
+  text-align: center;
 }
 
 .App {
@@ -30,7 +31,39 @@ a:hover {
   background-color: azure;
 }
 
-.red-text{
+
+#weatherpic {
+  display: flex;
+  text-align: center;
+  width: 800px;
+}
+
+#weatherpic:hover {
+ transform: scale(1.1)
+}
+
+#payrollpic {
+  display: flex;
+  text-align: center;
+  width: 800px;
+  height: 150px;
+}
+
+#payrollpic:hover {
+  transform: scale(1.1)
+}
+#self {
+  display:flexbox;
+  width: 500px;
+  height: 500px;
+}
+
+
+.red-text {
   color: red;
-  display: none;
+}
+
+.footer {
+  font-size: 48px;
+  margin-right: 20px;
 }

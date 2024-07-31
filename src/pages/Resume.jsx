@@ -9,7 +9,6 @@ function Resume() {
                 Download my <a href="./JosephsChristopherResume.pdf" download>Resume</a>
             </p>
             <section id="Resume">
-                <h2>Resume</h2>
                 <div id="resume">
                     <h1>Front End Proficiencies</h1>
                     <ul>
