@@ -14,7 +14,7 @@ My portfolio contains three different sections. The "About Me" section contains 
 
 
 ## Installation
-Use this link to access my portfolio page: https://codecj93.github.io/PortfolioPage/
+Use this link to access my portfolio page: https://66ac403c38c4bface252d951--neon-tanuki-2f4fd3.netlify.app/
 
 
 
