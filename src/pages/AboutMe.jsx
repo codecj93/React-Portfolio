@@ -1,6 +1,5 @@
 import React from 'react';
-import '/Users/cjosephs93/Desktop/Bootcamp/challenges/React Portfolio/React-Portfolio/src/App.css';
-import Footer from '../components/Footer';
+
 
 function AboutMe() {
   return (

@@ -1,11 +1,5 @@
-import react from 'react';
-import Footer from '../components/Footer';
-import '/Users/cjosephs93/Desktop/Bootcamp/challenges/React Portfolio/React-Portfolio/src/App.css';
+import React from 'react';
 import ProjectCard from '../components/ProjectCard';
-import '../App.css';
-
-
-
 
 function MyWork() {
 

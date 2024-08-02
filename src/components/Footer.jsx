@@ -1,6 +1,6 @@
-import react from 'react';
+import React from 'react';
 import '@fortawesome/fontawesome-free/css/all.min.css';
-import '/Users/cjosephs93/Desktop/Bootcamp/challenges/React Portfolio/React-Portfolio/src/App.css';
+
 
 
 function Footer() {
